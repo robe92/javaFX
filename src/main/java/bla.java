@@ -15,7 +15,7 @@ public class bla extends Application {
     public void start(Stage stage) throws Exception {
 
         VBox vb = new VBox(10);
-        stage.setTitle("My First JavaFX App2222");
+        stage.setTitle("My First JavaFX App222");
         String version = System.getProperty("javafx.version");
         Button button1 = new Button("Don't touch me");
         Label label1 = new Label("Hello World, JavaFX: " + version + "!");
